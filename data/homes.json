@@ -1,0 +1,298 @@
+[
+  {
+    "type": "apartment",
+    "title": "Ridzuan Condominium\n",
+    "starRating": "3.3",
+    "objectID": "1",
+    "note": "Buyer is keen on selling at lower price. ",
+    "propertySize": 1190,
+    "price": "MYR 360,000",
+    "features": [
+      "Fully Furnished",
+      "Partly Furnished"
+    ],
+    "Agent": "Jesper",
+    "location": {
+      "address": "03, Jalan PJS 10/11A, Bandar Sunway",
+      "city": "Petaling Jaya",
+      "state": "Kuala Lumpur",
+      "country": "Malaysia"
+    },
+    "reviewBMV": {
+      "BMV1": 49,
+      "Market_Value": "MYR 600,000",
+      "BMV2": "''",
+      "ratingBMV": 2.5
+    },
+    "reviewROI": {
+      "MonthlyRental": 2500,
+      "ROI": 9.41176470588235,
+      "ratingROI": 2.5
+    },
+    "reviewUPKEEP": {
+      "UpkeepRMK": 20,
+      "ratingUpkeepRMK": 2
+    },
+    "reviewOccupancy": {
+      "OccupancyPercentage": 0.3,
+      "ratingOccupancy": 1
+    },
+    "reviewMaintenance": {
+      "MaintenancePSF": 0.17,
+      "ratingMaintenance": 2.5
+    },
+    "reviewInfra": {
+      "MrtLrt": 1,
+      "University": 1,
+      "Hospital": 1,
+      "B.Hotspot": 1,
+      "Highway": 1,
+      "ratingInfra": 5
+    },
+    "reviewPCG": {
+      "Landed": 0,
+      "Township": 0,
+      "Infra": 1,
+      "PopulationJobs": 0,
+      "UniqueThrophy": 0,
+      "PastCapitalGain": 1,
+      "ratingPcG": 2
+    },
+    "Availability": true,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "images": [
+      "https://res.cloudinary.com/dgsljij3o/image/upload/v1620122290/ridzuancondo1_fgeaju.jpg",
+      "https://res.cloudinary.com/dgsljij3o/image/upload/v1620122290/ridzuanCondo2_jdareu.jpg",
+      "https://res.cloudinary.com/dgsljij3o/image/upload/v1620122289/ridzuanCondo3_yxjzty.jpg",
+      "https://res.cloudinary.com/dgsljij3o/image/upload/v1618359705/citybgview_gqhebj.jpg"
+    ],
+    "_geoloc": {
+      "lat": 3.0789,
+      "lng": 101.6059
+    }
+  },
+    {
+        "type": "condominum",
+        "title": "Silk Residence",
+        "objectID": "2",
+      "starRating": "2.3",
+        "note": "Great Property for sale. Owner is desperate ",
+        "propertySize": 1190,
+        "price": "MYR 306,000",
+        "features": [
+          "Fully Furnished",
+          "Partly Furnished"
+        ],
+        "Agent": "Jesper",
+        "location": {
+          "address": "Kajang Dispersal Link Expy,",
+          "city": "Cheras",
+          "state": "Selangor",
+          "country": "Malaysia"
+        },
+        "reviewBMV": {
+          "BMV1": 20,
+          "Market_Value": "MYR 450,000",
+          "BMV2": "''",
+          "ratingBMV": 2.5
+        },
+        "reviewROI": {
+          "MonthlyRental": 4500,
+          "ROI": 14.87324,
+          "ratingROI": 2.5
+        },
+        "reviewUPKEEP": {
+          "UpkeepRMK": 20,
+          "ratingUpkeepRMK": 2
+        },
+        "reviewOccupancy": {
+          "OccupancyPercentage": 0.3,
+          "ratingOccupancy": 1
+        },
+        "reviewMaintenance": {
+          "MaintenancePSF": 0.17,
+          "ratingMaintenance": 2.5
+        },
+        "reviewInfra": {
+          "MrtLrt": 1,
+          "University": 1,
+          "Hospital": 1,
+          "B.Hotspot": 1,
+          "Highway": 1,
+          "ratingInfra": 5
+        },
+        "reviewPCG": {
+          "Landed": 0,
+          "Township": 0,
+          "Infra": 1,
+          "PopulationJobs": 0,
+          "UniqueThrophy": 0,
+          "PastCapitalGain": 1,
+          "ratingPcG": 2
+        },
+        "Availability": true,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "images": [
+          "https://res.cloudinary.com/dgsljij3o/image/upload/v1620122289/silkresidence4_zkdz17.jpg",
+          "https://res.cloudinary.com/dgsljij3o/image/upload/v1620122290/silkresidence_kjbes3.jpg",
+          "https://res.cloudinary.com/dgsljij3o/image/upload/v1620122290/Silk-Residence-Cheras-Malaysia_djexlv.jpg",
+          "https://images.unsplash.com/photo-1501685532562-aa6846b14a0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+          "https://images.unsplash.com/photo-1585803114088-cd027272106a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+        ],
+        "_geoloc": {
+          "lat": 43.758773,
+          "lng": -79.391785
+       }
+ },
+ {
+    "type": "condominum",
+    "title": "Silk Residence",
+    "objectID": "3",
+   "starRating": "2.0",
+    "note": "Great Property for sale. Owner is desperate ",
+    "propertySize": 1190,
+    "price": "MYR 306,000",
+    "features": [
+      "Fully Furnished",
+      "Partly Furnished"
+    ],
+    "Agent": "Jesper",
+    "location": {
+      "address": "Kajang Dispersal Link Expy,",
+      "city": "Cheras",
+      "state": "Selangor",
+      "country": "Malaysia"
+    },
+    "reviewBMV": {
+      "BMV1": 20,
+      "Market_Value": "MYR 450,000",
+      "BMV2": "''",
+      "ratingBMV": 2.5
+    },
+    "reviewROI": {
+      "MonthlyRental": 4500,
+      "ROI": 14.87324,
+      "ratingROI": 2.5
+    },
+    "reviewUPKEEP": {
+      "UpkeepRMK": 20,
+      "ratingUpkeepRMK": 2
+    },
+    "reviewOccupancy": {
+      "OccupancyPercentage": 0.3,
+      "ratingOccupancy": 1
+    },
+    "reviewMaintenance": {
+      "MaintenancePSF": 0.17,
+      "ratingMaintenance": 2.5
+    },
+    "reviewInfra": {
+      "MrtLrt": 1,
+      "University": 1,
+      "Hospital": 1,
+      "B.Hotspot": 1,
+      "Highway": 1,
+      "ratingInfra": 5
+    },
+    "reviewPCG": {
+      "Landed": 0,
+      "Township": 0,
+      "Infra": 1,
+      "PopulationJobs": 0,
+      "UniqueThrophy": 0,
+      "PastCapitalGain": 1,
+      "ratingPcG": 2
+    },
+    "Availability": true,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "images": [
+
+      "https://res.cloudinary.com/dgsljij3o/image/upload/v1620122322/o2_srxio4.jpg",
+      "https://res.cloudinary.com/dgsljij3o/image/upload/v1620122323/o2residence_l1fuzv.jpg",
+      "https://images.unsplash.com/photo-1484301548518-d0e0a5db0fc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+      "https://images.unsplash.com/photo-1501685532562-aa6846b14a0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+      "https://images.unsplash.com/photo-1585803114088-cd027272106a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+    ],
+    "_geoloc": {
+      "lat": 43.758773,
+      "lng": -79.391785
+   }
+},
+{
+    "type": "condominum",
+    "title": "Silk Residence",
+    "objectID": "4",
+  "starRating": "4",
+    "note": "Great Property for sale. Owner is desperate ",
+    "propertySize": 1190,
+    "price": "MYR 306,000",
+    "features": [
+      "Fully Furnished",
+      "Partly Furnished"
+    ],
+    "Agent": "Jesper",
+    "location": {
+      "address": "Kajang Dispersal Link Expy,",
+      "city": "Cheras",
+      "state": "Selangor",
+      "country": "Malaysia"
+    },
+    "reviewBMV": {
+      "BMV1": 20,
+      "Market_Value": "MYR 450,000",
+      "BMV2": "''",
+      "ratingBMV": 2.5
+    },
+    "reviewROI": {
+      "MonthlyRental": 4500,
+      "ROI": 14.87324,
+      "ratingROI": 2.5
+    },
+    "reviewUPKEEP": {
+      "UpkeepRMK": 20,
+      "ratingUpkeepRMK": 2
+    },
+    "reviewOccupancy": {
+      "OccupancyPercentage": 0.3,
+      "ratingOccupancy": 1
+    },
+    "reviewMaintenance": {
+      "MaintenancePSF": 0.17,
+      "ratingMaintenance": 2.5
+    },
+    "reviewInfra": {
+      "MrtLrt": 1,
+      "University": 1,
+      "Hospital": 1,
+      "B.Hotspot": 1,
+      "Highway": 1,
+      "ratingInfra": 5
+    },
+    "reviewPCG": {
+      "Landed": 0,
+      "Township": 0,
+      "Infra": 1,
+      "PopulationJobs": 0,
+      "UniqueThrophy": 0,
+      "PastCapitalGain": 1,
+      "ratingPcG": 2
+    },
+    "Availability": true,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "images": [
+      "https://images.unsplash.com/photo-1542718610-a1d656d1884c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+      "https://images.unsplash.com/photo-1514774849407-0bef2676db20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80",
+      "https://images.unsplash.com/photo-1484301548518-d0e0a5db0fc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+      "https://images.unsplash.com/photo-1501685532562-aa6846b14a0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+      "https://images.unsplash.com/photo-1585803114088-cd027272106a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+    ],
+    "_geoloc": {
+      "lat": 101.6059,
+      "lng": 3.0789
+   }
+}
+]

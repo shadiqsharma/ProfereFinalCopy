@@ -1,0 +1,67 @@
+/*
+Error: Invalid US-ASCII character "\xE9"
+        on line 52 of core/_variables.scss
+        from line 10 of mdb.lite.scss
+
+47: $custom-mdb-file-text                        : (
+48:   es                                         : "Elegir",
+49:   pl-pl                                      : "Wybierz",
+50:   fr                                         : "Choisir",
+51:   in                                         : "Pilih",
+52:   zh                                         : "選擇",
+53:   de                                         : "Wählen",
+54:   ru                                         : "Выбрать"
+55: ) !default;
+56: 
+57: // Reponsive Headings
+
+Backtrace:
+core/_variables.scss:52
+mdb.lite.scss:10
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/util.rb:1325:in `rescue in block in find_encoding_error'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/util.rb:1322:in `block in find_encoding_error'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/util.rb:1321:in `each'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/util.rb:1321:in `each_with_index'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/util.rb:1321:in `find_encoding_error'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/util.rb:930:in `check_sass_encoding'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/engine.rb:439:in `check_encoding!'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/engine.rb:395:in `_to_tree'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/engine.rb:315:in `to_tree'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `block in with_import'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `with_import'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/engine.rb:384:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/engine.rb:301:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:391:in `run'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/exec/base.rb:52:in `parse'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/exec/base.rb:19:in `parse!'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/bin/sass:13:in `<top (required)>'
+/usr/local/bin/sass:23:in `load'
+/usr/local/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid US-ASCII character \"\xE9\"\A         on line 52 of core/_variables.scss\A         from line 10 of mdb.lite.scss\A \A 47: $custom-mdb-file-text                        : (\A 48:   es                                         : \"Elegir\",\A 49:   pl-pl                                      : \"Wybierz\",\A 50:   fr                                         : \"Choisir\",\A 51:   in                                         : \"Pilih\",\A 52:   zh                                         : \"選擇\",\A 53:   de                                         : \"Wählen\",\A 54:   ru                                         : \"Выбрать\"\A 55: ) !default;\A 56: \A 57: // Reponsive Headings"; }
