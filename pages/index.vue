@@ -17,11 +17,11 @@
 
         <partners ></partners>
 
-        <BlogSectionOne />
+
 
         <HowWeDoIt></HowWeDoIt>
 
-
+      <BlogSectionOne />
 
 
         <Newsletter />
