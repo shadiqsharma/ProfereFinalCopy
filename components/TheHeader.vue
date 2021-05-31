@@ -46,6 +46,7 @@
                     <!-- Header Right Start -->
                     <div class="col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2 ">
                         <div v-if="$auth.loggedIn">
+                            {{ $auth.user.email }}
                           <button type="button" class="btn btn-primary">Login</button>
                         </div>
                       <div v-else>
