@@ -13,10 +13,9 @@
 
       <special/>
 
-      <AboutTwo></AboutTwo>
+      <AboutTwo style="margin-top:-450px;"></AboutTwo>
 
         <partners ></partners>
-
 
 
         <HowWeDoIt></HowWeDoIt>
