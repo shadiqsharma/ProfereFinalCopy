@@ -12,6 +12,7 @@
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "@nuxtjs/apollo": "^4.0.1-rc.5",
+    "@nuxtjs/auth-next": "5.0.0-1622309801.87126e3",
     "@nuxtjs/style-resources": "^1.0.0",
     "add": "^2.0.6",
     "aos": "^2.3.4",

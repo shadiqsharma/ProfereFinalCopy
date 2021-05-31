@@ -70,6 +70,7 @@ export default {
         '@nuxtjs/style-resources',
       'mdbvue/nuxt',
       '@nuxtjs/apollo',
+      '@nuxtjs/auth-next',
     ],
   mdbvue: {
    roboto:true,
