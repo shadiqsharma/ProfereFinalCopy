@@ -17,8 +17,7 @@ export default {
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
           {rel: 'font', type: 'text/css', href:'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap'},
           {rel: 'stylesheet',href:"mdbvue/lib/mdbvue.css"},
-          {rel: 'stylesheet', href:'https://cdn.jsdelivr.net/npm/mdb-vue-ui-kit/css/mdb.min.css'},
-          {rel: 'script', src:"https://cdn.jsdelivr.net/npm/mdb-vue-ui-kit/js/mdb.umd.min.js"}],
+        ]
 
 
 
@@ -29,7 +28,8 @@ export default {
     // Global CSS (https://go.nuxtjs.dev/config-css)
     css: [
         'assets/scss/style.scss',
-        'mdbvue/lib/css/mdb.min.css'
+        'mdbvue/lib/css/mdb.min.css',
+        'bootstrap-css-only/css/bootstrap.min.css'
 
     ],
 
@@ -39,7 +39,7 @@ export default {
         '~/plugins/silentbox.js',
         '~/plugins/vuejs-paginate.js',
         '~/plugins/Mixitup.client.js',
-      '~/plugins/auth.client.js',
+     
         {
             src: "~/plugins/aos",
             ssr: false
@@ -70,15 +70,20 @@ export default {
         '@nuxtjs/style-resources',
       'mdbvue/nuxt',
       '@nuxtjs/apollo',
+      '@nuxtjs/axios',
+    '@nuxtjs/auth'
     ],
   mdbvue: {
    roboto:true,
+   css: true,
+   bootstrap: true,
+
 
   },
   apollo: {
     clientConfigs: {
       default: {
-        httpEndpoint: process.env.BACKEND_URL || "http://typebyte.xyz:1337/graphql"
+        httpEndpoint: process.env.BACKEND_URL || "http://localhost:1337/graphql"
       }
     }
   },
@@ -86,6 +91,9 @@ export default {
     styleResources: {
         scss: [
             '~/assets/scss/_variables.scss',
+            
+
+            
 
 
 
@@ -98,17 +106,14 @@ export default {
     build: {
         extend(config, ctx) {
         },
-      "transpile":[ 'mdbvue/lib/components'],
+      "transpile":[ 'mdbvue','@nuxtjs/vuetify'],
       extractCSS: true,
       loaders: {
           limit: 0,
       }
     },
     publicRuntimeConfig:{
-      auth:{
-        cookieName:'idToken',
-        clientId: '289500001802-515nghj3up5ikfvutt50diefs44fagpc.apps.googleusercontent.com',
-      },
+      
     },
     privateRuntimeConfig:{
 
